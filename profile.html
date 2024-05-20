@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>MAIN PAGE</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" style="background-color: navy;">
+            <div class="container py-3">
+                <a class="navbar-brand" href="#page-top" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #f2f2f2;" >Russell's PROFILE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="py-4 text-white" style="background-color: #171717;">
+            <div class="container px-4 text-center" style="padding-top: 7%;">
+                <h1 class="fw-bolder">"Welcome to my Website"</h1>
+                <p class="lead">It's a site to know me more.</p>
+            </div>
+        </header>
+        <!-- About ME SECTION-->
+        <section id="about">   
+       <div class="slideshow-container" style="padding-top: 2%;">
+
+         <div class="mySlides fade">
+             <div class="numbertext">1 / 3</div>
+                <img src="FB_IMG_1715260646054.jpg" style="width:100%;">
+         <div class="text">First Reunion</div>
+        </div>
+
+       <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+              <img src="fam.jpg" style="width:100%">
+            <div class="text">Family</div>
+       </div>
+       <div class="mySlides fade">
+             <div class="numbertext">3 / 3</div>
+               <img src="IMG_20240514_135442_467 (2).jpg" style="width:100%">
+             <div class="text">Graduation</div>
+     </div>
+</div>
+
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+        </div>
+            <div class="container px-4" style="padding-bottom: 30px;">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center;">ABOUT ME</h2>
+                            <div class="typing-container" id="typing-text"></div>
+     <script>
+                 const text = "HELLO, my name is Russell Lancero. I am 19 years old and currently pursuing a degree in Information Technology at the University of Global Reciprocal Colleges. As the second child among four siblings, I have always valued the importance of teamwork and collaboration, both in my family and in my academic endeavors. My passion for technology drives me to explore innovative solutions and continuously expand my knowledge in the ever-evolving IT field.";
+                 let index = 0;
+                 const speed = 100;
+
+             const fonts = [
+            'monospace',
+            'Arial, sans-serif',
+            'Georgia, serif',
+            'Times New Roman, Times',
+            'sans-serif'
+        ];
+                        
+        function type() {
+            if (index < text.length) {
+                const typingText = document.getElementById('typing-text');
+                typingText.textContent += text.charAt(index);
+                typingText.style.fontFamily = fonts[index % fonts.length];
+                index++;
+                setTimeout(type, speed);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            type();
+        });
+    </script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hobbies section-->
+        <section class="bg-light py-5" id="hobbies">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">My Hobbies</h2>
+                        <p class="lead" style="font-family: 'Courier New', Courier, monospace;">Here are some of the things I love to do in my free time.</p>
+                    </div>
+                </div>
+                <div class="row gx-4 justify-content-center mt-4">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                                <h5 class="card-title">Learning Programming</h5>
+                                <p class="card-text">I enjoy learning new programming languages and working on innovative projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-gamepad fa-3x mb-3"></i>
+                                <h5 class="card-title">Playing Mobile Games</h5>
+                                <p class="card-text">Playing mobile games is a fun way for me to relax and unwind.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-plane fa-3x mb-3"></i>
+                                <h5 class="card-title">Travel</h5>
+                                <p class="card-text">I love exploring new places, experiencing different cultures, and meeting new people.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-film fa-3x mb-3"></i>
+                                <h5 class="card-title">Watching Movies</h5>
+                                <p class="card-text">Watching movies is a great way for me to relax and immerse myself in different stories.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        
+       
+        <!-- Contact section-->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container px-4">
+          <div class="row gx-4 justify-content-center">
+            <div class="col-lg-8 text-center mb-5">
+                <h2 class="mb-4" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">My Contact</h2>
+                <p class="lead" style="font-family: 'Courier New', Courier, monospace;">We'd love to hear from you! Whether you have a question or just want to say hi, feel free to reach out.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-container">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-info">
+                                <a href="tel:+1234567890">0949-469-5926</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-facebook"></i>
+                            <div class="contact-info">
+                                <a href="https://www.facebook.com/yourprofile" target="_blank">Russell Lancero</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <div class="contact-info">
+                                <a href="https://www.instagram.com/yourprofile" target="_blank">justmii-russell</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-info">
+                                <a href="mailto:youremail@gmail.com">lancerorussell@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-info">
+                                <span>9A St. Thomas St., LFS Veinte Reales Valenzuela City</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-6"  style="padding-top: 3%;">
+                    <form id="contactForm" class="p-4 rounded shadow bg-white">
+                        <div class="mb-3">
+                            <label for="name" class="form-label" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Submit</button>
+                    </form>
+                    <div id="thankYouMessage" class="mt-4 p-3 bg-success text-white text-center rounded shadow" style="display: none;">
+                        <h4>Thank you for your message!</h4>
+                        <p>We will get back to you shortly.</p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+       </div>
+    </section>
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        var name = document.getElementById('name').value;
+        var thankYouMessage = document.getElementById('thankYouMessage');
+        thankYouMessage.innerHTML = '<h4>Thank you and nice to meet you, ' + name + ', for your message!</h4><p>I appreciate your message.</p>';
+        thankYouMessage.style.display = 'block';
+        document.getElementById('contactForm').reset();
+    });
+</script>
+    </section>
+        <!-- Footer-->
+        <footer class="py-5" style="background-color: navy;">
+            <div class="container px-4">
+                <p class="m-0 text-center text-white"><a href="index.html" class="footer-link">HOME</a></p>
+            </div>
+        </footer>
+        <style>
+footer {
+    background-color: navy;
+    position: relative;
+    overflow: hidden;
+}
+
+footer .container {
+    position: relative;
+    z-index: 2;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-link:hover {
+    color: goldenrod;
+    transform: scale(1.1);
+}
+footer::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
+    animation: rotateBackground 10s linear infinite;
+    z-index: 1;
+}
+
+@keyframes rotateBackground {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+        </style>
+       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script>
+            let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); 
+    }
+        </script>
+    </body>
+</html>
